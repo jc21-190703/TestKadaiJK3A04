@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp2
 {
-   public class kuriage
+   public class Kuriage
     {
 
-        public static int kuriage10(int i)
+        public static int Kuriage10(int i)
         {
             if (i == 0)
             {

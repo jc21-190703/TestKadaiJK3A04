@@ -44,6 +44,10 @@ namespace WindowsFormsApp2
                 else
                 {
                    kekka += g[i];
+                    if (g.Length == 1)
+                    {
+                        flg = false;
+                    }
                    i = (i + 1) % g.Length;
                 } 
                 
